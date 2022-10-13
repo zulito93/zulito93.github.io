@@ -1,0 +1,44 @@
+:root {
+    --color-primary: #e78fb3;
+    --color-secondary: #ffc0ad;
+    --color-tertiary: #9656a1;
+    --white: #fffffe;
+    --black: #140d0b;
+    --brown: #55423d; /*cinder de Duber*/
+    --grey: #fff3ec;
+
+
+    --background: var(--brown);
+
+    --font-size-base: 10px;
+    --font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-color-heading: var(--white);
+    --font-color-paragraph: var(--grey);
+    --font-size-small: calc(var(--font-size-base)*1.5);
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: var(--font-color-heading);
+}
+
+p {
+    color: var(--font-color-paragraph);
+}
+
+.NavigationBar {
+    background-color: var(--color-primary);
+    color: var(--white);
+}
