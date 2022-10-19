@@ -72,6 +72,15 @@ p {
     color: var(--color-secondary);
 }
 
-.NavigationBar-menu {
+.NavigationBar-menuList [href] {
+    color: var(--white);
+    display: block;
+    font-weight: bold;
+    padding: 0.2rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+[href]:hover {
+    color: var(--color-secondary);
 }
