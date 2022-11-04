@@ -103,7 +103,7 @@ html {
   
   .NavigationBar-brand:hover,
   .NavigationBar-menuList > a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
   
   .NavigationBar-hamburgerContainer {
@@ -221,6 +221,27 @@ html {
     font-size: 3rem;
   }
 
+  .Header {
+    background-color: var(--color-secondary);
+    padding: 10rem 0 5rem;
+    text-align: center;
+  }
+
+  .Header-image {
+    width: 25rem;
+    height: auto;
+    margin: 0 auto 2rem;
+  }
+
+.Header-skills{
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+.Header-container {
+  padding: 0 var(--padding-base);
+}
+
   @media (min-width: 768px) {
 
     .NavigationBar-menuContainer--show{
@@ -233,7 +254,7 @@ html {
       justify-content: space-between;
       padding: 1.5rem 0;
     }
-  
+
     .NavigationBar-brandContainer {
       border-bottom: 0;
     }
@@ -259,9 +280,18 @@ html {
     .TitleComponent--large {
       font-size: 7.1rem;
     }
+
+    .Header {
+      padding: 20rem 0 10rem;
+    }
+
+    .Header-skills {
+      font-size: 2.6rem;
+    }
   }
   @media (min-width: 1200px) {
-    .NavigationBar-container {
+    .NavigationBar-container,
+    .Header-container {
       margin: 0 auto;
       max-width: var(--max-width-container);
     }
